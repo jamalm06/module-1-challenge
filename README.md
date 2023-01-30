@@ -2,7 +2,7 @@
 module 01 challenge assignment
 
 
-* **Following acceptance creteria provided**: 
+**Following acceptance creteria provided**: 
 ```
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code

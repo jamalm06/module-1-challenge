@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* updated tag from dive to nav */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* updated tag from div to nav */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* updated tag from div to nav */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    /* changed height from 800px to fit content 
+    */
+    height: fit-content;
+    width: 100%;
+    /* added image source in HTML file with alt tag and removed form here  */
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+/* removed classes of float left and right, added stlye elements in main-content-image-float-left and ain-content-image-float-right  */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.contect-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* changed float right class name to main-content-image-float-right */
+.main-content-image-float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+/* changed float left class name to main-content-image-float-left */
+.main-content-image-float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* changed benefits class name to aside-benefits-section */
+.aside-benefits-section {
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+/* removed redundent classes of  benefit-brand and  benefit-cost as made one class for all sections in aside bar named aside-benefits-section */
+
+/* changed class benefit-lead h3 to  aside-bar-h3 */
+.aside-bar-h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* removed all other classes style properties that was redundent as common styling applied for sestions  */
+.aside-bar-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 20px;
+}
